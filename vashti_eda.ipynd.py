@@ -1,5 +1,5 @@
 Name: Vashti Gambol
-Project 06 datafun eda with Jupyter Notebook
+Project:  06 datafun eda with Jupyter Notebook
 February 12th 2024
 A Data Analyst will be able to use some very important tools such as GitHub, Jupyter, Pandas Seaborn, Git,
 and more.
