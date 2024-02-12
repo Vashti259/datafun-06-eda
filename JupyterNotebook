@@ -4,3 +4,11 @@ February 12th 2024
 A Data Analyst will be able to use some very important tools such as GitHub, Jupyter, Pandas Seaborn, Git, and more.
 with VSCode installed on their machine, they can do great things.
 
+# Inspect histogram by numerical column
+df['sepal_length'].hist()
+
+# Inspect histograms for all numerical columns
+df.hist()
+
+# Show all plots
+plt.show()
