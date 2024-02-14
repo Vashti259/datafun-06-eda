@@ -4,18 +4,18 @@ Documentation: README.md
 Notebook: vashti_eda.ipynb
 February 14,2024
 
- Overview
+# Overview
 A Data Analyst will be able to use  some very important tools such as GitHub, Jupyter,
 some Python Library tools plus Git, and more with VSCODE installed on their machine.
 
-Dependencies
+# Dependencies
 jupyterlab
 pandas
 matplotlib
 seaborn
 
-Data Acquisition
- # Load the dataset into a pandas DataFrame - adjust this process for your custom data
+# Data Acquisition
+## Load the dataset into a pandas DataFrame - adjust this process for your custom data
 df = sns.load_dataset('iris')
 # Inspect first rows of the DataFrame
 print(df.head())
