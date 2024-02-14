@@ -32,9 +32,34 @@ for col in df.select_dtypes(include=['object', 'category']).columns:
     plt.title(f'Distribution of {col}')
     plt.show()
 
+Jupyter Notebook / Python cell example:
+
+# Inspect value counts by categorical column
+df['species'].value_counts()
+
+# Inspect value counts for all categorical columns
+for col in df.select_dtypes(include=['object', 'category']).columns:
+    # Display count plot
+    sns.countplot(x=col, data=df)
+    plt.title(f'Distribution of {col}')
+    plt.show()
+
 # Show all plots
 plt.show()
 
+Jupyter Notebook / Python cell example:
 
+# Inspect value counts by categorical column
+df['species'].value_counts()
+
+# Inspect value counts for all categorical columns
+for col in df.select_dtypes(include=['object', 'category']).columns:
+    # Display count plot
+    sns.countplot(x=col, data=df)
+    plt.title(f'Distribution of {col}')
+    plt.show()
+
+# Show all plots
+plt.show()
 
 
