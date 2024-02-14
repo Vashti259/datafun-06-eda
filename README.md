@@ -1,7 +1,8 @@
 # This is a Datafun-06-eda Notebook Project
- This is a Datafun-06-eda Notebook Project
+This is a Datafun-06-eda Notebook Project
 Documentation: README.md
 Notebook: vashti_eda.ipynb
+February 14,2024
 
  Overview
 A Data Analyst will be able to use  some very important tools such as GitHub, Jupyter,
