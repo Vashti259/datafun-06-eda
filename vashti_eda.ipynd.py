@@ -18,3 +18,6 @@ import seaborn as sns
 import numpy
 
 # Data Acquisition
+# Load the dataset into a pandas DataFrame - adjust this process for your custom data
+df = sns.load_dataset('iris')
+df =pd. Dataframe (top20, columns=
