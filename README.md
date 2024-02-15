@@ -1,9 +1,14 @@
+<<<<<<< HEAD
  This is a Datafun-06-eda Notebook Project
+=======
+This is a Datafun-06-eda Notebook Project
+>>>>>>> 9336f10479ae3bc07d6dae77930afc32428a8f96
 Documentation: README.md
 Notebook: vashti_eda.ipynb
 
  Overview
 A Data Analyst will be able to use  some very important tools such as GitHub, Jupyter, some Python Library tools plus Git, and more with VSCODE installed on their machine.
+<<<<<<< HEAD
 
 Import Dependencies
 import matplotlib.pyplot as plt
@@ -705,6 +710,13 @@ for col in df.select_dtypes(include=['object', 'category']).columns:
 plt.show()
 
 Jupyter Notebook / Python cell example:
+=======
+
+Import Dependencies
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+>>>>>>> 9336f10479ae3bc07d6dae77930afc32428a8f96
 
 # Inspect value counts by categorical column
 df['species'].value_counts()
