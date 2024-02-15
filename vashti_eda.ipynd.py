@@ -33,13 +33,15 @@ def
   8 lady     117 
   9 shall    110
  10 friar    105
- 11 come      94
- 12 mercutio  88
- 13 lawrence  82
- 14     good  80  axes=df.plot.bar(x='word , y='count', legend = Fasle)
- 15  benvolio 79  import matplotlib.pyplot as plt
- 16  tybalt   79  plt.gcf().tight_layout() 
- 17  enter    75
- 18     go    75
- 19  night    73
+
+ # Initial Data Distribution for Numerical Columns
+ 
+  Inspect histogram by numerical column
+df['sepal_length'].hist()
+
+# Inspect histograms for all numerical columns
+df.hist()
+
+# Show all plots
+plt.show()
                    
