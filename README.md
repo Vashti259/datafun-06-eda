@@ -5,10 +5,10 @@
 ## Overview
 # A Data Analyst will be able to use  some very important tools such as GitHub, Jupyter, some Python Library tools plus Git, and more with VSCODE installed on their machine.
 
-## Import Dependencies
-# import matplotlib.pyplot as plt
-# import pandas as pd
-# import seaborn as sns
+# Import Dependencies
+ import matplotlib.pyplot as plt
+ import pandas as pd
+ import seaborn as sns
 
 
 
