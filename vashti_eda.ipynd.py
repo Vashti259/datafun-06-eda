@@ -5,8 +5,17 @@ February 14th 2024
 A Data Analyst will be able to use some very important tools such as GitHub, Jupyter, Pandas Seaborn, Git,
 and more. With VSCODE installed on their machine, they can do great things.
 
-## Import dependencies
+Terminal Commands
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+py -m pip install jupyterlab pandas matplotlib seaborn
+py -m pip freeze > requirements.txt
+
+ ## Import dependencies
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import numpy
+
+
+ 
