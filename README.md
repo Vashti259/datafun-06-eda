@@ -16,7 +16,7 @@ Notebook: vashti_eda.ipynb
 
   ## Data Acquisition
   
- #Load the dataset into a pandas DataFrame - adjust this process for your custom data
+ Load the dataset into a pandas DataFrame - adjust this process for your custom data
 df = sns.load_dataset('iris')
  Inspect first rows of the DataFrame
 print(df.head())
